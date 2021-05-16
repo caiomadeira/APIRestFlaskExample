@@ -5,7 +5,7 @@ from functools import wraps
 # jsonify retorna objetos em json ao inves de html
 # make_response diz para o navegador ou a API qual é o HTTP basic pedido para login
 
-from api.db import callLane, callVersion, callEnv, file
+from db import callLane, callVersion, callEnv, file
 
 # testado com postman/ postman agent
 app = Flask("Inchurch API")

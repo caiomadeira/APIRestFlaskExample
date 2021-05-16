@@ -1,6 +1,5 @@
-from scripts.suport.creatingTextFile import returnFilename
-
-filename = returnFilename()
+ 
+filename = 'test.txt'
 
 
 def convertTxtToJson(filename=filename):

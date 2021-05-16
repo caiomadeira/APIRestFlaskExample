@@ -1,4 +1,4 @@
-from API.suport import convertTxtToJson
+from suport import convertTxtToJson
 
 file = convertTxtToJson()
 
